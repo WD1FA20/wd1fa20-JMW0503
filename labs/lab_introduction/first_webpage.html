@@ -6,7 +6,7 @@
     <title>About Me</title>
     <style>
       html, body {
-        height:; 90%,
+        height: 90%;
         margin: 0;
         background-color: #000000;
       }
@@ -38,20 +38,20 @@
     </section>
     <div id="hex"></div>
     <script>
-      var s1, s2, s3, color;
-      function displayTime() {
-        s1 = Math.floor((Math.random() * 89) + 10);
-        s2 = Math.floor((Math.random() * 89) + 10);
-        s3 = Math.floor((Math.random() * 89) + 10);
-        
-        color = "#" + s1 + s2 + s3;
-        var hex = document.getElementById("hex");
-        hex.style.background = color;
-        hex.innerHTML = color;
-        
-        setTimeout(displayTime, 2000);
-      }
-      displayTime();
+            var s1, s2, s3, color;
+            function displayTime() {
+            s1 = Math.floor((Math.random() * 89) + 10);
+            s2 = Math.floor((Math.random() * 89) + 10);
+            s3 = Math.floor((Math.random() * 89) + 10);
+              
+            color = "#" + s1 + s2 + s3;
+            var hex = document.getElementById("hex");
+            hex.style.background = color;
+            hex.innerHTML = color;
+              
+            setTimeout(displayTime, 2000);
+            }
+            displayTime();
     </script>
   </body>
 </html>
