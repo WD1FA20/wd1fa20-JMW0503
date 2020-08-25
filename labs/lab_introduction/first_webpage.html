@@ -4,9 +4,54 @@
     <meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>About Me</title>
+    <style>
+      html, body {
+        height:; 90%,
+        margin: 0;
+        background-color: #000000;
+      }
+      
+      section {
+        position: relative;
+        text-align: center;
+        top: 30%;
+        color: #7401DF;
+      }
+      #hex {
+        position: fixed;
+        top: 88%;
+        width: 100%;
+        text-align: center;
+        padding: 4% 0;
+        color: white;
+      }
+    </style>
   </head>
 
   <body>
-    
+    <section>
+      <h1>Justin Wilson</h1>
+      <h2>Three interesting things about me are: </h2>
+      <p>I breed reptiles</p>
+      <p>I Laser engrave and 3D print (A lot)</p>
+      <p>I have a 70 lb Red Tail Boa.</p>
+    </section>
+    <div id="hex"></div>
+    <script>
+      var s1, s2, s3, color;
+      function displayTime() {
+        s1 = Math.floor((Math.random() * 89) + 10);
+        s2 = Math.floor((Math.random() * 89) + 10);
+        s3 = Math.floor((Math.random() * 89) + 10);
+        
+        color = "#" + s1 + s2 + s3;
+        var hex = document.getElementById("hex");
+        hex.style.background = color;
+        hex.innerHTML = color;
+        
+        setTimeout(displayTime, 2000);
+      }
+      displayTime();
+    </script>
   </body>
 </html>
