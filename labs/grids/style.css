@@ -1,0 +1,38 @@
+/* Write Grid CSS Styles Here */
+
+/* Write Grid CSS Styles Here */
+.albums {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, [col] 1fr);
+    padding: 1em;
+}
+
+.album {
+    background-color: white;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.album__artwork {
+    border: 10px white solid;
+    border-radius: 12%;
+    grid-column: col 1;
+    grid-row: 1;
+    height: 100%;
+}
+
+.album__details {
+    align-self: center;
+    background-color: white;
+    grid-column: col 2;
+    padding-right: 75px;
+}
+
+
+
+
+z
+
+
