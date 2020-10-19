@@ -1,0 +1,245 @@
+    :root {
+        --dark: #343a40;
+        --medium: #6c757d;
+        --light: #CCCCCC;
+        --lightlight: #EFEFEF;
+        --white: #FFFFFF;
+        --btn: #007bff;
+    }
+    
+    html {
+        box-sizing: border-box;
+        font-family: "Rubrik", Roboto, Helvetica, Arial, sans-serif;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+  
+    body {
+        margin: 0;
+        background-color: var(--white);
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    
+    .wrapper {
+        display: grid;
+        grid-gap: 20px;
+    }
+
+    
+    
+    /* Navigation */
+    
+    .navbar {
+        overflow: hidden;
+        background-color: var(--dark);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .navbar a {
+        float: right;
+        display: block;
+        color: var(--light);
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+    }
+    /* END Navigation */
+    
+    .navbar {
+        overflow: hidden;
+        background-color: var(--dark);
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .navbar a {
+        float: right;
+        display: block;
+        color: var(--light);
+        text-align: center;
+        padding: 14px 10px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    
+    .navbar a:hover {
+        background: #ddd;
+        color: black;
+    }
+    /* END Navigation */
+    
+    /* Header */
+    
+    .hero {
+        padding-top: 5vh;
+        background-image: url("http://placehold.it/1900x1080");
+        background-color: var(--white);
+        height: 300px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .hero-text {
+        text-align: center;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var(--white);
+    }
+    
+    /* END Header*/
+
+    /* Card Titles */
+    
+    .cardtitles{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    
+    #btn {
+        background-color: var(--btn);
+        padding: 8px 10px;
+        border: none;
+        border-radius: 5px;
+        color: var(--white);
+    }
+    
+    .cardtitle {
+        background-color: var(--white);
+        margin: 10px;
+        min-width: 300px;
+        max-width: 300px;
+        font-size: 17px;
+        border: solid;
+        border-color: var(--light);
+        border-radius: 5px;
+    }
+    
+    .titles {
+        background-color: var(--lightlight);
+        text-align: left;
+    }
+    
+    /* END Card Titles */
+
+
+    /* Projects */
+    
+    h2 {
+        font-size: 30px;
+    }
+    
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+    }
+    
+    .project {
+        background-color: var(--white);
+        margin: 10px;
+        max-width: 300px;
+        font-size: 17px;
+        text-align: left;
+        border: solid;
+        border-color: var(--light);
+        border-radius: 5px;
+    }
+    
+    .text {
+        margin: 10px;
+        padding-left: 10px;
+    }
+    
+    .projectid {
+        text-align: center;
+        color: var(--btn);
+    }
+    /* END Projects */
+    
+    /* Business Details */
+    
+    .businessdetails {
+        text-align: left;
+        background-color: var(--white);
+        color: black !important;
+    }
+    
+    #businesshead {
+        font-size: 30px;
+    }
+    
+    #bottom {
+        float: right;
+    }
+    
+    /* END Business Details*/
+    
+    /* HR */
+    
+    hr {
+        color: var(--lightlight);
+        border: 1px solid;
+    }
+    
+    /* END HR*/
+    
+    /* CTA */
+    
+    #btncta {
+        height: 30px;
+        width: 175px;
+        float: right;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--medium);
+        color: var(--white);
+        padding: 1vh;
+        
+    }
+    
+    /* END CTA*/
+    
+    
+    /* Footer */
+    footer {
+        text-align: center;
+        background-color: var(--dark) !important;
+        color: var(--white) !important;
+        padding: 3.5vh;
+        width: 100%;
+    }
+    
+    /* END Footer */
+    
+    
+    /* Media Queries */
+    
+    @media only screen and (min-width: 700px) {
+        
+        .projects {width: 100%;}
+    }
+    
+    
+    
+    /* END Media Queries */
