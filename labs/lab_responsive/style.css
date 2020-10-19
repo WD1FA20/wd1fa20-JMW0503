@@ -110,12 +110,6 @@
 
     /* Card Titles */
     
-    .cardtitles{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
-    }
-    
     #btn {
         background-color: var(--btn);
         padding: 8px 10px;
@@ -127,7 +121,6 @@
     .cardtitle {
         background-color: var(--white);
         margin: 10px;
-        min-width: 300px;
         max-width: 300px;
         font-size: 17px;
         border: solid;
@@ -147,12 +140,6 @@
     
     h2 {
         font-size: 30px;
-    }
-    
-    .projects {
-        display: flex;
-        flex-wrap: wrap;
-        align-items: stretch;
     }
     
     .project {
@@ -235,9 +222,43 @@
     
     /* Media Queries */
     
-    @media only screen and (min-width: 700px) {
+    @media screen and (min-width: 700px) {
         
-        .projects {width: 100%;}
+        .cardtitles {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+        
+    }
+    
+    @media screen and (min-width: 550px) {
+        
+        .cardtitles {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+    }
+    
+    @media screen and (min-width: 700px) {
+         
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+        }
+        
+    }
+    
+    @media screen and (min-width: 550px) {
+        
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: stretch;
+            
+        }
     }
     
     
