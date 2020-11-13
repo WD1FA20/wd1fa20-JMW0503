@@ -12,28 +12,29 @@
 <body>
     <header class="navbar" id="myNavBar">
         <div class="left">
-            <a href="#about">About</a>
-            <a href="#store">Store</a>
+            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" id="about">About</a>
+            <a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" id="store">Store</a>
         </div>
         <nav>
-            <a href="#gmail">Gmail</a>
-            <a href="#images">Images</a>
+            <a href="https://www.google.com/gmail/about/#" id="gmail">Gmail</a>
+            <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" id="images">Images</a>
             <i class="fas fa-th"></i>
         </nav>
-        <button class="button signin" id="signin">Sign in</button>
+        <input id="signin" type="button" onclick="window.location.href='https://accounts.google.com/signin/v2/identifier?hl=en&passive=true&continue=https%3A%2F%2Fwww.google.com%2F&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin';" value="Sign in"> 
     </header>
     
     <main>
-        
         <div class="middle">
             <div class="center">
-                <i class="fas fa-search"></i>
+                <img src="images/google.png" alt="google logo" id="googlelogo">
+                <br>
+                <i class="fas fa-search" id="search-icon"></i>
                 <input type="search" id="search" name="name">
                 <i class="fa fa-microphone"></i>
             </div>
             <div class="buttons">
-                <button class="button search">Google Search</button>
-                <button class="button lucky">I'm Feeling Lucky</button>
+                <input class="googlesearch" type="submit" value="Google Search">
+                <input class="lucky" type="submit" value="I'm Feeling Lucky">
             </div>
         </div>
         
@@ -41,12 +42,12 @@
     <footer>
         <div class="foot">
             <div class="bottom">
-                <a href="#privacy">Privacy</a>
-                <a href="#terms">Terms</a>
+                <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+                <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
                 <a href="#settings">Settings</a>
-                <a href="#adverising">Advertising</a>
-                <a href="#business">Business</a>
-                <a href="#howsearch">How Search Works</a>
+                <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+                <a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/">Business</a>
+                <a href="https://www.google.com/search/howsearchworks/?fg=1">How Search Works</a>
             </div>
         </div>
     </footer>

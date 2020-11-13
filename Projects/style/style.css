@@ -2,13 +2,16 @@
         --blue: #4386fb;
         --btn: #f8f9fa;
         --foot: #f2f2f2;
-        --foottxt: #a4a7aa;
+        --searchicon: #9aa0a6;
+        --search: #dfe1e5;
+        --footertext: #5f6368;
     }
     
     * {
          margin: 0;
          padding: 0;
-         font-family: Arial, Helvetica, sans-serif;
+         font-family: Arial, sans-serif;
+         font-size: 13px;
     }
     
     /* Header/Nav */
@@ -31,19 +34,65 @@
         text-decoration: underline;
     }
     
-    header > button {
+    #signin {
         border: none;
         background-color: var(--blue);
         color: white;
+        height: 30px;
+        width: 5.4em;
         border-radius: 2px;
-        padding: .3em .7em;
         font-weight: bolder;
     }
-    /*END Header/Nav */
+    /*END Header/Nav */ 
     
-    .middle {
-        background: url('images/google.png');
+    /* Middle Section */
+    #googlelogo {
+        height: 92px;
+        width: 272px;
     }
+    
+    #search {
+        border-radius: 2.2em;
+        border: solid var(--search) 1px;
+        width: 582px;
+        height: 47px;
+    }
+    
+    #search-icon {
+        color: var(--searchicon);
+        
+    }
+    
+    .googlesearch  {
+        width: 127.4px;
+        height: 36px;
+        color: var(--footertext);
+        border: none;
+        border-radius: .5em;
+    }
+    
+    .googlesearch:hover {
+        border: 1px solid #cacaca;
+        color: black;
+        
+        
+    }
+    
+    .lucky {
+        width: 127.4px;
+        height: 36px;
+        color: var(--footertext);
+        border: none;
+        border-radius: .5em;
+    }
+    
+    .lucky:hover {
+        border: 1px solid #cacaca;
+        color: black;
+        
+    }
+    
+    /* END Middle Section */
     
     footer > foot > bottom {
         background-color: var(--foot);
@@ -51,5 +100,5 @@
     
     .bottom > a {
         text-decoration: none;
-        color: var(--foottxt);
+        color: var(--footertext);
     }
