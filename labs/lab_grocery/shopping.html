@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="shopping.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background">
+            
+            <div class="form">
+                <div class="text-box">
+                    <p class="w3-xxxlarge">Grocery List</h1>
+                </div>
+
+                <form class="list">
+                    <input type="text" id="text" name="text" placeholder="Item" autocomplete="off">
+                    <input type="number" id="num" name="num" placeholder="Quantity">
+                    <select class="grocery">
+                        <option id="placeholder" value="" disabled selected hidden>Groceries</option>
+                    </select>
+                    <input type="submit" id="submit" name="submit">
+                </form>
+            </div>    
+            
+            <div class="addrem">
+                <button type="submit" id="rem1">Remove First</button>
+                <button type="submit" id="rem2">Remove Last</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

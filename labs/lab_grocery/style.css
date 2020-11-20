@@ -1,0 +1,107 @@
+*,
+*:after,
+*:before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+}
+
+.text-box,
+.w3-xxxlarge {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', serif !important;
+    font-weight: 900;
+    color: white ;
+    margin-bottom: .5em;
+
+}
+
+
+body {
+    background: url('currants.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    float: right;
+    display: flex;
+    height: 100vh;
+}
+
+.background {
+    background-color: rgba(255,255,255, .15);
+    backdrop-filter: blur(5px);
+    padding: 100px;
+    height: 100%;
+}
+
+.list {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    
+}
+
+#text,
+#num,
+.grocery
+{
+    background: none;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: 35px;
+    margin: 1em;
+    color: white;
+}
+
+#submit {
+    background: none;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    margin: .5em;
+    color: white;
+    align-self: center;
+}
+
+#submit:hover {
+    background-color: black;
+    
+}
+
+#rem1,
+#rem2 {
+    background: none;
+    border: 2px solid;
+    border-color: white;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+    color: white;
+    margin: .5em;
+    align-self: center;
+    
+}
+
+#rem1:hover,
+#rem2:hover {
+    background-color: black;
+}
+
+
+::placeholder {
+    color: white;
+}

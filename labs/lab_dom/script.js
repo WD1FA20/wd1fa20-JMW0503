@@ -19,25 +19,34 @@ const elThird = document.getElementsByTagName('ol')[0];
 
 //5) Give the header the text "Hello!".
 
-document.getElementsByTagName('header').innerHTML = "Hello!";
+const header = document.getElementsByTagName('header').innerHTML = '<p>Hello!</p>';
 
 //6) Add the class main to the <footer>.
 
+const footer = document.querySelector('footer');
+footer.classList.add('main');
 
 //7) Remove the class main on the <footer>.
 
+footer.classList.remove('main');
 
 //8a) Create a new li element and store in elLi.
 
+var elList = document.createElement('li');
 
 //8b) Give the new li the text "four".
 
+var four = document.createTextNode('four');
 
 //8c) Append the new li to the ul element.
 
+elList.appendChild(four);
 
 //9) Loop over all of the lis inside the ol tag and give them a background color of "green".
 
 
 //10) Remove the <footer>
+
+var rem = document.getElementsByTagName('footer')[0];
+rem.parentNode.removeChild(rem);
 
