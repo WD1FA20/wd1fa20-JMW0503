@@ -1,0 +1,27 @@
+:root {
+    --background-color: #334873;
+    --white: white;
+    --question: #5a8ee6;
+}
+
+html {
+    background-color: var(--background-color);
+}
+
+h1, h4 {
+    color: var(--white);
+}
+
+.q {
+    list-style-type: none;
+    color: var(--question);
+}
+
+.a {
+    list-style-type: none;
+    color: var(--white);
+}
+
+.faq-q, .faq-a {
+    color: var(--white);
+}
