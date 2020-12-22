@@ -1,0 +1,344 @@
+:root {
+    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    background-color: white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-style: normal;
+    line-height: normal;
+    font-style: normal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Hero Page*/
+
+.hero {
+    background-image: url('../images/coming.jpg');
+    height: 50vw;
+    max-width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/*End Hero*/
+
+
+
+/* Top Navigation*/
+
+.logo {
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+    text-shadow: 2px 2px yellow;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #ddd;
+    padding: 0.5rem;
+    color: yellow;
+    background-color: black;
+}
+
+header > * {
+    align-self: center;
+}
+
+header > nav {
+    display: flex;
+    
+}
+
+a {
+    color: black;
+}
+
+header > nav > a {
+    padding: 0.75rem;
+    text-decoration: none;
+    color: yellow;
+}
+
+header > .signup {
+    padding: 0.4em 0.7em;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+}
+
+header > .signup:hover {
+    background-color: red;
+    color: black;
+    
+}
+
+hr {
+    border: .5px solid yellow;
+}
+
+/*END Top Navigation*/
+
+/*Footer*/
+footer a {
+    color: yellow;
+    text-decoration: none;
+    padding: 5px;
+}
+
+footer a:hover {
+    color: red;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.foot {
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    flex-basis: 100%;
+    flex: 1;
+}
+/*END Footer*/
+
+
+/*About Page/How It Works*/
+
+.about {
+    background-color: #DCDCDC;
+    
+
+}
+
+/*Top*/
+
+.top-h1,
+.top-h2 {
+    background-color: #5658C2;
+    text-align: center;
+}
+
+#top-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.top-hiw {
+    text-align: center;
+    background-color: #CD5C5C;
+}
+
+.top-desc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    padding: 5px;
+    margin-bottom: 50px;
+    
+}
+/*END Top*/
+
+/*Bottom*/
+.bottom-h1,
+.bottom-h2 {
+    background-color: #5658C2;
+    text-align: center;
+}
+
+
+#bottom-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}
+
+.bottom-hiw {
+    text-align: center;
+    background-color: #CD5C5C;
+}
+
+.bottom-desc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    margin-bottom: 50px;
+    
+}
+
+/*END Bottom*/
+
+/*END About Page/How It Works*/
+
+/* Faq Page */
+
+.faq-page {
+    background-color: grey;
+}
+
+#faq-h1 {
+    text-align: center;
+}
+
+.q, a
+{
+    padding-top: 25px;
+}
+
+.faq-q,
+.faq-a {
+    color: blue;
+}
+
+.q {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.a {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+/*END Faq Page*/
+
+.signin-si {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+/*Sign In Page*/
+
+/*End Sign In Page*/
+
+/*Specs*/
+
+.spec-h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+table, th, td {
+    margin-top: 50px;
+    border: 1px solid black;
+}
+
+th {
+    height: 50px;
+    font-size: 35px;
+    background-color: #CD5C5C;
+}
+
+td {
+    font-size: 20px;
+    height: 35px;
+}
+
+/*END Specs*/
+
+/*Sign In*/
+.background {
+    float: right;
+    display: flex;
+    height: 100vh;
+    
+}
+
+.login-box {
+    background-color: #DCDCDC;
+    padding: 100px;
+    height: 100%;
+}
+
+#userpass_username {
+    background-color: black;
+    color: red;
+    height: 30px;
+    width: 160.8px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 5px;
+    
+}
+
+#userpass_password {
+    background-color: black;
+    color: red;
+    height: 30px;
+    width: 160.8px;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#submit {
+    border: 1px solid red;
+    height: 30px;
+    width: 160.8px;
+    border-radius: 5px;
+    background-color: black;
+    color: red;
+    margin: 5px;
+}
+
+.links {
+    text-align: center;
+}
+
+::placeholder {
+    color: red;
+}
+/*END Sign In*/
+@media (min-width: 1000px) {
+header > * {
+  align-self:initial;
+}
+
+header {
+  flex-direction:row;
+  justify-content:space-between;
+  align-items:center;
+}
+
+header > nav {
+  flex-grow:1;
+  justify-content:flex-end;
+}
+}
